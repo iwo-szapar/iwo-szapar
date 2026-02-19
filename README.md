@@ -1,30 +1,46 @@
-<img src="assets/banner.svg" width="100%" alt="Iwo Szapar — I build work systems"/>
+<div align="center">
+  <a href="https://iwoszapar.com/about">
+    <img src="assets/og-about.png" width="100%" alt="Iwo Szapar — Future of Work Pioneer"/>
+  </a>
+</div>
 
-<img src="assets/stats.svg" width="100%" alt="3,000+ companies · 25,000+ professionals · 1 exit"/>
+<img src="assets/stats.svg" width="100%" alt="3,000+ companies · 25,000+ professionals · 7,000+ AI assessments · 75 countries"/>
 
 <br>
 
-Co-founded the **AI Maturity Index** with Harvard researchers — validated on 420,000 data points, acquired by ISG (Nasdaq: III) in Jan 2026. Now building **Second Brain**: a fully automated AI productivity system for knowledge workers. Microsoft, Walmart, governments worldwide.
+<table>
+<tr>
+<td width="220" valign="top">
+<img src="assets/profile.jpg" width="200" alt="Iwo Szapar"/>
+</td>
+<td valign="top" style="padding-left: 24px">
 
-<img src="assets/divider.svg" width="100%"/>
+**Iwo Szapar** — builder, writer, slowmad. Born in Gdańsk, Poland. Lived in 15 countries.
 
-## Featured
+Co-founded the **AI Maturity Index** with Harvard researchers — 7,000+ assessments, 420,000+ data points, [acquired by ISG (Nasdaq: III)](https://markets.ft.com/data/announce/detail?dockey=600-202601140900BIZWIRE_USPRX____20260114_BW051216-1) in January 2026. Before that, built the world's first remote work certification platform. Trained 25,000+ professionals from Netflix, GitHub, and HubSpot.
 
-<a href="https://github.com/iwo-szapar/second-brain-health-check">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=iwo-szapar&repo=second-brain-health-check&bg_color=1A1A1A&border_color=F49320&border_radius=0&title_color=F5F5F5&text_color=888888&icon_color=F49320" alt="second-brain-health-check"/>
-</a>
+Now building **Second Brain**: AI-powered productivity for knowledge workers. The entire `iwoszapar.com` is built and shipped using Claude Code + 60+ custom skills.
 
-<img src="assets/divider.svg" width="100%"/>
+Microsoft · Walmart · Saudi Ministry of Communications · governments worldwide.
 
-## Current Work
+</td>
+</tr>
+</table>
 
-```
-→ Second Brain          AI productivity system, purchase-to-delivery automated
-→ Context Engineering   Systematic AI agent infrastructure for knowledge workers
-→ This entire website   Shipped & maintained with Claude Code + 60+ custom skills
-```
+---
 
-<img src="assets/divider.svg" width="100%"/>
+## Current Projects
+
+**01 — AI Maturity Index** `Acquired by ISG 2026`
+Co-founded with Harvard researchers. 7,000+ assessments across 75 countries, 400,000+ data points. Acquired by ISG (Nasdaq: III) as part of their AI acceleration strategy.
+
+**02 — Second Brain AI**
+Repository-backed AI workflow system. Consultants, PMs, and operators ship briefs in 90 minutes instead of 15+ hours. Built on GitHub + Claude Code with persistent memory and evidence-gated workflows.
+
+**03 — Context Engineering**
+Systematic approach to AI agent infrastructure. This repo is the proof of concept.
+
+---
 
 ## Recent Writing
 
@@ -32,25 +48,35 @@ Co-founded the **AI Maturity Index** with Harvard researchers — validated on 4
 |:--|:--|
 | [Context Engineering Research: What I Found After You Shared That Paper](https://iwoszapar.com/p/agents-md-do-context-files-help) | Feb 2026 |
 | [20 Papers on Context Engineering. Only One Tested What Actually Matters.](https://iwoszapar.com/p/context-engineering-research-2026) | Feb 2026 |
-| [How We're Building a Company Second Brain for 10 People Using Claude Code Agent Teams](https://iwoszapar.com/p/company-second-brain-ai-agent-teams) | Feb 2026 |
+| [How We're Building a Company Second Brain Using Claude Code Agent Teams](https://iwoszapar.com/p/company-second-brain-ai-agent-teams) | Feb 2026 |
 | [AI Hyperproductivity: The ADHD Superpower Stack](https://iwoszapar.com/p/ai-hyperproductivity-adhd-superpower) | Feb 2026 |
 
-→ [All writing at iwoszapar.com](https://iwoszapar.com)
+→ **[All writing at iwoszapar.com](https://iwoszapar.com)**
 
-<img src="assets/divider.svg" width="100%"/>
+---
+
+## Featured In
+
+`Financial Times` &nbsp; `Forbes` &nbsp; `ISG` &nbsp; `SDAIA` &nbsp; `South Summit` &nbsp; `Microsoft` &nbsp; `FlexOS`
+
+---
+
+## Speaking
+
+<img src="assets/south-summit.jpg" width="48%" alt="South Summit 2024, Madrid"/> &nbsp; <img src="assets/profile.jpg" width="48%" alt="Iwo Szapar"/>
+
+---
 
 ## Stack
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-1A1A1A?style=flat-square&logo=anthropic&logoColor=F49320)
-![TypeScript](https://img.shields.io/badge/TypeScript-1A1A1A?style=flat-square&logo=typescript&logoColor=F5F5F5)
-![React](https://img.shields.io/badge/React-1A1A1A?style=flat-square&logo=react&logoColor=F5F5F5)
-![Supabase](https://img.shields.io/badge/Supabase-1A1A1A?style=flat-square&logo=supabase&logoColor=F5F5F5)
-![Vercel](https://img.shields.io/badge/Vercel-1A1A1A?style=flat-square&logo=vercel&logoColor=F5F5F5)
+![Claude Code](https://img.shields.io/badge/Claude_Code-000000?style=flat-square&logo=anthropic&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-<img src="assets/divider.svg" width="100%"/>
+---
 
-<p>
-<a href="https://linkedin.com/in/iwo-szapar"><img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=flat-square&logo=linkedin&logoColor=F49320" height="26"/></a>&nbsp;
-<a href="https://iwoszapar.com"><img src="https://img.shields.io/badge/iwoszapar.com-1A1A1A?style=flat-square&logo=safari&logoColor=F5F5F5" height="26"/></a>&nbsp;
-<a href="https://iwoszapar.com/second-brain-ai"><img src="https://img.shields.io/badge/Second_Brain_%E2%86%92-F49320?style=flat-square&logoColor=1A1A1A&color=F49320&labelColor=F49320" height="26"/></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/iwo-szapar)
+[![Website](https://img.shields.io/badge/iwoszapar.com-000000?style=flat-square&logo=safari&logoColor=white)](https://iwoszapar.com)
+[![Second Brain](https://img.shields.io/badge/Second_Brain_%E2%86%92-000000?style=flat-square&logoColor=white)](https://iwoszapar.com/second-brain-ai)
