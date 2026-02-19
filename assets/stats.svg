@@ -1,49 +1,59 @@
-<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="120" fill="#F5E642"/>
+<svg width="900" height="130" viewBox="0 0 900 130" xmlns="http://www.w3.org/2000/svg">
+  <!-- Page background -->
+  <rect width="900" height="130" fill="#1A1A1A"/>
 
-  <!-- Dividers -->
-  <rect x="299" y="16" width="2" height="88" fill="#0A0A0A" opacity="0.15"/>
-  <rect x="599" y="16" width="2" height="88" fill="#0A0A0A" opacity="0.15"/>
-
-  <!-- Stat 1: Companies -->
-  <text x="149" y="74"
-        font-family="Impact, 'Arial Black', Arial, sans-serif"
-        font-size="54"
-        fill="#0A0A0A"
+  <!-- CARD 1 shadow (brutal 4px offset in orange) -->
+  <rect x="4" y="4" width="282" height="116" fill="#F49320"/>
+  <!-- CARD 1 face (border-4 border-foreground, no radius) -->
+  <rect x="0" y="0" width="282" height="116" fill="#1A1A1A" stroke="#F5F5F5" stroke-width="3"/>
+  <!-- Stat -->
+  <text x="141" y="62"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="44"
+        font-weight="900"
+        fill="#F5F5F5"
         text-anchor="middle"
         letter-spacing="-1">3,000+</text>
-  <text x="149" y="103"
+  <text x="141" y="95"
         font-family="'Courier New', Courier, monospace"
-        font-size="11"
-        fill="#0A0A0A"
+        font-size="10"
+        fill="#888888"
         text-anchor="middle"
-        letter-spacing="4">COMPANIES</text>
+        letter-spacing="3">COMPANIES</text>
 
-  <!-- Stat 2: Professionals -->
-  <text x="450" y="74"
-        font-family="Impact, 'Arial Black', Arial, sans-serif"
-        font-size="54"
-        fill="#0A0A0A"
+  <!-- CARD 2 shadow -->
+  <rect x="313" y="4" width="282" height="116" fill="#F49320"/>
+  <!-- CARD 2 face -->
+  <rect x="309" y="0" width="282" height="116" fill="#1A1A1A" stroke="#F5F5F5" stroke-width="3"/>
+  <text x="450" y="62"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="44"
+        font-weight="900"
+        fill="#F5F5F5"
         text-anchor="middle"
         letter-spacing="-1">25,000+</text>
-  <text x="450" y="103"
+  <text x="450" y="95"
         font-family="'Courier New', Courier, monospace"
-        font-size="11"
-        fill="#0A0A0A"
+        font-size="10"
+        fill="#888888"
         text-anchor="middle"
-        letter-spacing="4">PROFESSIONALS TRAINED</text>
+        letter-spacing="3">PROFESSIONALS</text>
 
-  <!-- Stat 3: Exit -->
-  <text x="750" y="74"
-        font-family="Impact, 'Arial Black', Arial, sans-serif"
-        font-size="54"
-        fill="#0A0A0A"
+  <!-- CARD 3 shadow -->
+  <rect x="622" y="4" width="282" height="116" fill="#F49320"/>
+  <!-- CARD 3 face -->
+  <rect x="618" y="0" width="282" height="116" fill="#1A1A1A" stroke="#F5F5F5" stroke-width="3"/>
+  <text x="759" y="62"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="44"
+        font-weight="900"
+        fill="#F5F5F5"
         text-anchor="middle"
         letter-spacing="-1">1 EXIT</text>
-  <text x="750" y="103"
+  <text x="759" y="95"
         font-family="'Courier New', Courier, monospace"
-        font-size="11"
-        fill="#0A0A0A"
+        font-size="10"
+        fill="#888888"
         text-anchor="middle"
-        letter-spacing="4">ACQUISITION · 2026</text>
+        letter-spacing="3">ACQUISITION · 2026</text>
 </svg>

@@ -1,34 +1,44 @@
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="260" fill="#0A0A0A"/>
-  <rect x="0" y="0" width="7" height="260" fill="#F5E642"/>
-  <rect x="7" y="248" width="893" height="5" fill="#F5E642"/>
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background matching dark mode #1A1A1A -->
+  <rect width="900" height="200" fill="#1A1A1A"/>
 
-  <!-- Subtle grid texture -->
-  <line x1="7" y1="40" x2="893" y2="40" stroke="#141414" stroke-width="1"/>
-  <line x1="7" y1="80" x2="893" y2="80" stroke="#141414" stroke-width="1"/>
-  <line x1="7" y1="120" x2="893" y2="120" stroke="#141414" stroke-width="1"/>
-  <line x1="7" y1="160" x2="893" y2="160" stroke="#141414" stroke-width="1"/>
-  <line x1="7" y1="200" x2="893" y2="200" stroke="#141414" stroke-width="1"/>
+  <!-- Top 4px border (white, like border-4 border-foreground) -->
+  <rect x="0" y="0" width="900" height="4" fill="#F5F5F5"/>
+  <!-- Bottom 4px border -->
+  <rect x="0" y="196" width="900" height="4" fill="#F5F5F5"/>
 
-  <!-- Name -->
-  <text x="26" y="156"
-        font-family="Impact, 'Arial Black', Arial, sans-serif"
-        font-size="108"
-        fill="#FFFFFF"
-        letter-spacing="-2">IWO SZAPAR</text>
+  <!-- Subtle grid texture (matching site's grid background pattern) -->
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#F5F5F5" stroke-width="0.5" opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="200" fill="url(#grid)"/>
 
-  <!-- Tagline -->
-  <text x="28" y="210"
+  <!-- Orange accent left bar (4px, like left border on cards) -->
+  <rect x="0" y="4" width="4" height="192" fill="#F49320"/>
+
+  <!-- Name: Helvetica Neue bold — tight tracking, editorial -->
+  <text x="32" y="120"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="90"
+        font-weight="900"
+        fill="#F5F5F5"
+        letter-spacing="-3">IWO SZAPAR</text>
+
+  <!-- Tagline: Space Mono feel, orange, all-caps, wide tracking -->
+  <text x="34" y="165"
         font-family="'Courier New', Courier, monospace"
-        font-size="17"
-        fill="#F5E642"
-        letter-spacing="8">I BUILD WORK SYSTEMS.</text>
+        font-size="13"
+        font-weight="400"
+        fill="#F49320"
+        letter-spacing="5">I BUILD WORK SYSTEMS</text>
 
-  <!-- Credential tag bottom-right -->
-  <text x="882" y="238"
+  <!-- Credential: muted, bottom right, mono -->
+  <text x="880" y="183"
         font-family="'Courier New', Courier, monospace"
         font-size="10"
-        fill="#3A3A3A"
+        fill="#555555"
         text-anchor="end"
-        letter-spacing="2">AIMI ACQUIRED · ISG NASDAQ: III · JAN 2026</text>
+        letter-spacing="1.5">AIMI ACQ. · ISG NASDAQ:III · JAN 2026</text>
 </svg>
